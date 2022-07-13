@@ -7,68 +7,48 @@
 </div>
 <!------------------------------------------------------- -->
 
-<!-- BANNIERE Wordpress CPT Project -->
+<!-- BANNIERE Prestashop GABSVNshop -->
 <!------------------------------------------------------- -->
 
 <p align="center">
-  <a href="https://user-images.githubusercontent.com/99598124/178593393-6cb0f34e-dfe4-45ab-8d68-efb13a6abdba.gif"><img src="https://user-images.githubusercontent.com/99598124/178593393-6cb0f34e-dfe4-45ab-8d68-efb13a6abdba.gif" alt="my banner"></a>
+  <a href="https://user-images.githubusercontent.com/99598124/178593393-6cb0f34e-dfe4-45ab-8d68-efb13a6abdba.gif"><img src="https://user-images.githubusercontent.com/99598124/178758220-272c7cdc-0d07-43e0-a73b-40337db14566.gif" alt="my banner"></a>
 </p>
 
 <!-- --------------------------------------------------- -->
-<!-- -------Badges Wordpress et PHP license 7 - 8 -------------------------------------- -->
+<!-- -------Badges Prestashop et PHP license 7 - 8 -------------------------------------- -->
 
 
-[![](https://img.shields.io/badge/Cms-Wordpress-informational?style=flat&logo=Wordpress&color=336791)](https://wordpress.org/support/)
+[![](https://img.shields.io/badge/Cms-Prestashop-informational?style=flat&logo=Prestashop&color=0081CB)](https://www.prestashop.com/en/online-store-builder)
 [![PHP 7 and 8](https://img.shields.io/badge/php-7%20/%208-blue.svg?style=flat-square)](https://wordpress.org/support/update-php/)
 <!------------------------------------------------------- -->
 
 
 <h2 align="center">
-CPT Projet
+GABSVNshop
 </h2> 
 
-Le projet CPT est un outils portfolio qui fournit des fonctionnalités aux types de publication personnalisées et aux taxonomies WordPress. Il permet aux développeurs de créer rapidement des types de publication et des taxonomies sans devoir écrire le même code encore et encore.
+Le projet GABSVNshop est un ensemble d'outils polyvalents E-commerce PRESTASHOP, représentés à travers une boutique en ligne dynamique et diversifiée.
+Elle permet aux développeurs de créer rapidement une boutique polyvalente et prête à la distrubution, sans devoir écrire le même code encore et encore.
+Ces Outils étendus fonctionnent à la fois avec l'éditeur classique et l'éditeur de blocs.
 
-Les CPT étendus fonctionnent à la fois avec l'éditeur classique et l'éditeur de blocs.
 
 <h2 align="center">
-Paramètres par défaut améliorés pour les types de publication
+PRESTASHOP
 </h2> 
 
-## Fonctionnalités d'administration ##
+PrestaShop est une application Web de commerce électronique gratuite et open-source, qui s'engage à fournir la meilleure expérience de panier d'achat aux commerçants et aux consommateurs.
 
- * Types de publication et taxonomies automatiquement ajoutés à la section "En bref" du tableau de bord
- * Création déclarative des colonnes du tableau sur l'écran de listage des types de publication :
-   * Colonnes pour la méta post, les termes de taxonomie, les images en vedette, les champs de publication, les connexions Posts 2 Posts et les fonctions personnalisées
-   * Colonnes triables pour les méta-postes, les termes de taxonomie et les champs de publication
-   * Restrictions de capacité utilisateur
-   * Colonne de tri et ordre de tri par défaut
- * Plusieurs méta-boîtes personnalisées disponibles pour les taxonomies sur l'écran de post-édition :
-   * Liste simplifiée des cases à cocher
-   * Boutons radio
-   * Menu déroulant
-   * Fonction personnalisée  
- * Types de publication éventuellement ajoutés à la section "Récemment publié" sur le tableau de bord
- * Création déclarative de colonnes de tableau sur l'écran de listage des termes de taxonomie :
-   * Colonnes pour les méta-termes et les fonctions personnalisées
-   * Restrictions de capacité utilisateur
- * Contrôles de filtrage sur l'écran de liste des types de publication pour activer le filtrage des publications par méta de publication, termes de taxonomie, auteur de publication et dates de publication
- * Remplacer le texte "Image en vedette" et "Entrez le titre ici"
+## CONFIGURATION DU SERVEUR ##
+
+Pour installer PrestaShop, vous avez besoin d'un serveur Web exécutant PHP5 et n'importe quelle version de MySQL5 (MySQL, MariaDB, Percona Server...). Vous aurez également besoin d'un outil d'administration de base de données, tel que phpMyAdmin, afin de créer une base de données pour PrestaShop. Nous recommandons les serveurs Web Apache ou Nginx.
+
+Si votre hébergeur ne propose pas PHP5 par défaut, voici quelques explications sur PHP5 ou le fichier .htaccess pour certains hébergeurs (1&1, Free, Lycos, OVH, Infomaniak, Amen, GoDaddy, etc).
+
+Si vous souhaitez que votre boutique en ligne soit prête à l'emploi, rendez-vous sur http://www.prestabox.com : elle vous permet de créer votre boutique en ligne en moins de 10 minutes sans aucune connaissance technique.
+
+
  
- 
-
-## Fonctionnalités front-End pour les types de publication ##
-
- * Remplacer les variables de requête publiques ou privées par défaut telles que `posts_per_page`, `orderby`, `orderetnopaging`
- * Ajouter le type de publication au flux RSS principal du site
-  * Spécifiez les variables de requête publiques qui activent le filtrage par méta post et dates de publication
- * Spécifiez une structure de permaliens personnalisée :
-   * Par exemple `reviews/%year%/%month%/%review%`
-   * Prend en charge toutes les balises de réécriture pertinentes, y compris les dates et les taxonomies personnalisées
-   * Intégration automatique avec le plugin Rewrite Rule Testing
- * Spécifiez les variables de requête publiques qui permettent le tri par post-méta, termes de taxonomie et champs de publication
-
-## Exigences minimales ##
+## EXIGENCES MINIMALES ##
 
 * **PHP:** 7.4  
   - PHP 8.0 et 8.1 sont pris en charge
@@ -77,119 +57,47 @@ Paramètres par défaut améliorés pour les types de publication
 
 Les CPT étendus devraient fonctionner avec les versions de WordPress jusqu'à 4.9, mais ces versions ne sont pas testées et ne sont pas officiellement prises en charge.
 
-## Installation ##
+## INSTALLATION ##
 
-Extended CPTs est un plugin, ce qui signifie que vous pouvez l'inclure dans votre projet. Installez-le à l'aide de Composer :
+Avec votre navigateur web, allez à la racine de votre répertoire PrestaShop, et le programme d'installation se lancera. Suivez les instructions jusqu'à ce que PrestaShop soit installé.
 
-```bash
-Docker compose
+Si vous avez une erreur PHP, vous n'avez peut-être pas PHP5 ou vous devez l'activer sur votre hébergeur. Voir la page liée ci-dessus. Si vous ne trouvez pas de solution pour démarrer l'installateur, merci de poster sur les forums PrestaShop .
+
+GABSVNshop est une boutique prête à la production. Ce qui signifie que vous pouvez l'inclure dans votre projet. Installez-la à l'aide de Composer :
+
+```bash 
+	https://github.com/GABSVN/GABSVNshop/Docker-compose.yml
+	Docker compose
 ```
 
 Les moyens d'installation ou d'utilisation, ne sont pas officiellement pris en charge et se font à vos risques et périls.
 
-## Usage ##
 
-Besoin d'un type de message simple sans fioritures? Enregistrez un type de publication avec un seul paramètre :
+## DOCUMENTATION ##
 
-```php
-add_action( 'init', function() {
-	register_extended_post_type( 'article' );
-} );
-```
+La documentation officielle de PrestaShop est disponible en ligne sur son propre site .
 
-Et vous pouvez enregistrer une taxonomie avec seulement deux paramètres :
+
+## UTILISATION ##
+
+Besoin d'une boutique polyvalente et prête à la production? Ne cherchez plus, enregistrez et installez GABSVNshop chez vous sans plus attendre:
 
 ```php
-add_action( 'init', function() {
-	register_extended_taxonomy( 'location', 'article' );
-} );
+fhjfjhf
 ```
 
-Essayez-le. Vous aurez un type de publication public hiérarchique avec une interface utilisateur d'administration, une taxonomie publique hiérarchique avec une interface utilisateur d'administration, toutes les étiquettes et les messages mis à jour générés automatiquement.
-
-Ou pour un peu plus de fonctionnalité :
-
-```php
-add_action( 'init', function() {
-	register_extended_post_type( 'story', [
-
-		# Add the post type to the site's main RSS feed:
-		'show_in_feed' => true,
-
-		# Show all posts on the post type archive:
-		'archive' => [
-			'nopaging' => true,
-		],
-
-		# Add some custom columns to the admin screen:
-		'admin_cols' => [
-			'story_featured_image' => [
-				'title'          => 'Illustration',
-				'featured_image' => 'thumbnail'
-			],
-			'story_published' => [
-				'title_icon'  => 'dashicons-calendar-alt',
-				'meta_key'    => 'published_date',
-				'date_format' => 'd/m/Y'
-			],
-			'story_genre' => [
-				'taxonomy' => 'genre'
-			],
-		],
-
-		# Add some dropdown filters to the admin screen:
-		'admin_filters' => [
-			'story_genre' => [
-				'taxonomy' => 'genre'
-			],
-			'story_rating' => [
-				'meta_key' => 'star_rating',
-			],
-		],
-
-	], [
-
-		# Override the base names used for labels:
-		'singular' => 'Story',
-		'plural'   => 'Stories',
-		'slug'     => 'stories',
-
-	] );
-
-	register_extended_taxonomy( 'genre', 'story', [
-
-		# Use radio buttons in the meta box for this taxonomy on the post editing screen:
-		'meta_box' => 'radio',
-
-		# Add a custom column to the admin screen:
-		'admin_cols' => [
-			'updated' => [
-				'title_cb'    => function() {
-					return '<em>Last</em> Updated';
-				},
-				'meta_key'    => 'updated_date',
-				'date_format' => 'd/m/Y'
-			],
-		],
-
-	] );
-} );
-```
-
-Boum, maintenant nous avons:
-
-* Un type de publication "Stories", avec des étiquettes correctement générées et des messages mis à jour, trois colonnes personnalisées dans la zone d'administration (dont deux peuvent être triées), des histoires ajoutées au flux RSS principal et toutes les histoires affichées sur l'archive de type de publication.
-* Une taxonomie 'Genre' attachée au type de publication 'Stories', avec des étiquettes correctement générées et des messages de mise à jour des termes, et une colonne personnalisée dans la zone d'administration.
-
-Les fonctions `register_extended_post_type()` et `register_extended_taxonomy()` sont finalement des enveloppes pour les fonctions `register_post_type()` et `register_taxonomy()` dans le noyau de WordPress, de sorte que n'importe lequel des paramètres de ces fonctions peut être utilisé.
 
 Bien entendu, vous pouvez faire beaucoup plus.
 
-## Contribuez et testez! ##
+## CONTIRBUEZ ET TESTEZ! ##
+
+Vous pouvez discuter, aider et contribuer avec la communauté GABSVNshop sur les forums GABSVNshop.
+
+Merci d'avoir téléchargé et utilisé la solution Open Source PrestaShop e-commerce!
 
 Veuillez contribuer et tester.
 
-## License: GPLv2 ou ultérieure ##
+## LICENSE: GPLv2 OU ULTÉRIEURE ##
 
 Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier selon les termes de la licence publique générale GNU telle que publiée par la Free Software Foundation ; soit la version 2 de la licence, soit (à votre choix) toute version ultérieure.
 
@@ -202,10 +110,10 @@ Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GAR
 </p>
 
 
-
-
-
 <!-- ---------------------------------------------------------->
+
+
+
 
 
 
