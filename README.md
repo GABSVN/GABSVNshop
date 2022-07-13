@@ -67,7 +67,7 @@ GABSVNshop est une boutique prête à la production. Ce qui signifie que vous po
 
 ```bash 
 	https://github.com/GABSVN/GABSVNshop/Docker-compose.yml
-	Docker compose
+	Docker-compose up -d
 ```
 
 Les moyens d'installation ou d'utilisation, ne sont pas officiellement pris en charge et se font à vos risques et périls.
@@ -83,7 +83,8 @@ La documentation officielle de PrestaShop est disponible en ligne sur son propre
 Besoin d'une boutique polyvalente et prête à la production? Ne cherchez plus, enregistrez et installez GABSVNshop chez vous sans plus attendre:
 
 ```php
-fhjfjhf
+
+
 ```
 
 
