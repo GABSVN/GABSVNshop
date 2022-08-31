@@ -42,8 +42,6 @@ PrestaShop est une application Web de commerce électronique gratuite et open-so
 
 Pour installer PrestaShop, vous avez besoin d'un serveur Web exécutant PHP5 et n'importe quelle version de MySQL5 (MySQL, MariaDB, Percona Server...). Vous aurez également besoin d'un outil d'administration de base de données, tel que phpMyAdmin, afin de créer une base de données pour PrestaShop. Nous recommandons les serveurs Web Apache ou Nginx.
 
-Si votre hébergeur ne propose pas PHP5 par défaut, voici quelques explications sur PHP5 ou le fichier .htaccess pour certains hébergeurs (1&1, Free, Lycos, OVH, Infomaniak, Amen, GoDaddy, etc).
-
 Si vous souhaitez que votre boutique en ligne soit prête à l'emploi, rendez-vous sur http://www.prestabox.com : elle vous permet de créer votre boutique en ligne en moins de 10 minutes sans aucune connaissance technique.
 
 
@@ -55,8 +53,6 @@ Si vous souhaitez que votre boutique en ligne soit prête à l'emploi, rendez-vo
 * **WordPress:** 5.6  
   - Testé jusqu'à WP 6.0
 
-Les CPT étendus devraient fonctionner avec les versions de WordPress jusqu'à 4.9, mais ces versions ne sont pas testées et ne sont pas officiellement prises en charge.
-
 ## INSTALLATION LOCALE ##
 
 L'installation de <a href="https://devdocs.prestashop.com/1.7/basics/installation/localhost/#installing-a-local-environment" target="_blank">Prestashop localement</a> nécessite que vous installiez d'abord l'environnement adéquat, à savoir le serveur Web Apache, l'interpréteur de langage PHP, le serveur de base de données MySQL et, idéalement, un outil d'administration MySQL tel que l'outil phpMyAdmin.
@@ -65,10 +61,11 @@ Avec votre navigateur web, allez à la racine de votre répertoire PrestaShop, e
 
 Si vous avez une erreur PHP, vous n'avez peut-être pas PHP5 ou vous devez l'activer sur votre hébergeur. Voir la page liée ci-dessus. Si vous ne trouvez pas de solution pour démarrer l'installateur, merci de poster sur les forums PrestaShop .
 
-GABSVNshop est une boutique prête à la production. Ce qui signifie que vous pouvez l'inclure dans votre projet. Installez-la à l'aide de Composer :
+GABSVNshop est une boutique prête à la production. Installez-la à l'aide de Docker-Compose:
 
 ```bash 
 	https://github.com/GABSVN/GABSVNshop/Docker-compose.yml
+	
 	Docker-compose up -d
 ```
 
