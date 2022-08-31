@@ -2,7 +2,7 @@
 
 <div align="center">
   <br /><br />
-  <a href="https://gabsvn.ch"><img src="https://awesome.re/badge-flat.svg" /></a>
+  <a href="https://gabsvn.ch" target="_blank"><img src="https://awesome.re/badge-flat.svg" /></a>
   <br /><br /><br />
 </div>
 <!------------------------------------------------------- -->
@@ -11,7 +11,7 @@
 <!------------------------------------------------------- -->
 
 <p align="center">
-  <a href="https://user-images.githubusercontent.com/99598124/178593393-6cb0f34e-dfe4-45ab-8d68-efb13a6abdba.gif"><img src="https://user-images.githubusercontent.com/99598124/178758220-272c7cdc-0d07-43e0-a73b-40337db14566.gif" alt="my banner"></a>
+  <a href="https://github.com/GABSVN" target="_blank"><img src="https://user-images.githubusercontent.com/99598124/178758220-272c7cdc-0d07-43e0-a73b-40337db14566.gif" alt="my banner"></a>
 </p>
 
 <!-- --------------------------------------------------- -->
@@ -29,7 +29,6 @@ GABSVNshop
 
 Le projet GABSVNshop est un ensemble d'outils polyvalents E-commerce PRESTASHOP, représentés à travers une boutique en ligne dynamique et diversifiée.
 Elle permet aux développeurs de créer rapidement une boutique polyvalente et prête à la distrubution, sans devoir écrire le même code encore et encore.
-Ces Outils étendus fonctionnent à la fois avec l'éditeur classique et l'éditeur de blocs.
 
 
 <h2 align="center">
@@ -37,6 +36,7 @@ PRESTASHOP
 </h2> 
 
 PrestaShop est une application Web de commerce électronique gratuite et open-source, qui s'engage à fournir la meilleure expérience de panier d'achat aux commerçants et aux consommateurs.
+
 
 ## CONFIGURATION DU SERVEUR ##
 
@@ -57,7 +57,9 @@ Si vous souhaitez que votre boutique en ligne soit prête à l'emploi, rendez-vo
 
 Les CPT étendus devraient fonctionner avec les versions de WordPress jusqu'à 4.9, mais ces versions ne sont pas testées et ne sont pas officiellement prises en charge.
 
-## INSTALLATION ##
+## INSTALLATION LOCALE ##
+
+L'installation de <a href="https://devdocs.prestashop.com/1.7/basics/installation/localhost/#installing-a-local-environment" target="_blank">Prestashop localement</a> nécessite que vous installiez d'abord l'environnement adéquat, à savoir le serveur Web Apache, l'interpréteur de langage PHP, le serveur de base de données MySQL et, idéalement, un outil d'administration MySQL tel que l'outil phpMyAdmin.
 
 Avec votre navigateur web, allez à la racine de votre répertoire PrestaShop, et le programme d'installation se lancera. Suivez les instructions jusqu'à ce que PrestaShop soit installé.
 
@@ -72,10 +74,17 @@ GABSVNshop est une boutique prête à la production. Ce qui signifie que vous po
 
 Les moyens d'installation ou d'utilisation, ne sont pas officiellement pris en charge et se font à vos risques et périls.
 
+## DECOMPRESSER LE FICHIER ##
+
+N'oubliez pas de décompresser le fichier GABSVNshop. Voous pourez utiliser la commande suivante:
+
+```php
+unzip NomDuFichier.zip
+```
 
 ## DOCUMENTATION ##
 
-La documentation officielle de PrestaShop est disponible en ligne sur son propre site .
+La <a href="https://devdocs.prestashop.com" target="_blank">documentation officielle de PrestaShop</a> est disponible en ligne sur son propre site .
 
 
 ## UTILISATION ##
@@ -83,8 +92,7 @@ La documentation officielle de PrestaShop est disponible en ligne sur son propre
 Besoin d'une boutique polyvalente et prête à la production? Ne cherchez plus, enregistrez et installez GABSVNshop chez vous sans plus attendre:
 
 ```php
-
-
+https://github.com/GABSVN/GABSVNshop
 ```
 
 
