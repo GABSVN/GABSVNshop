@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/fr/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/fr/blog/feed.xml</link>
+    <description></description>
+    <language>fr</language>
+     <atom:link href="https://www.prestashop.com/fr/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Comment savoir si le paiement fractionné est fait pour votre e-commerce ?</title>
+    <link>https://www.prestashop.com/fr/blog/paiement-fractionne</link>
+    <description>Dans un contexte de baisse du pouvoir d’achat, avec des prix à la consommation qui ne cessent de grimper, le paiement fractionné s’impose comme un véritable levier commercial pour les marchands.</description>
+     <pubDate>Mon, 29 Aug 2022 15:05:41 +0200</pubDate>
+ <dc:creator>L&#039;équipe PrestaShop</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/paiement-fractionne</guid>
+  </item>
+  <item>
+    <title>PrestaShop vs Shopify : tout ce qu&amp;#039;il faut savoir</title>
+    <link>https://www.prestashop.com/fr/blog/prestashop-vs-shopify</link>
+    <description>Présentation de Shopify
+En 2006, la plateforme SaaS e-commerce canadienne Shopify voit le jour. </description>
+     <pubDate>Tue, 23 Aug 2022 10:18:18 +0200</pubDate>
+ <dc:creator>Sébastien Godard</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prestashop-vs-shopify</guid>
+  </item>
+  <item>
+    <title>Magento vs. PrestaShop, tout ce qu&amp;#039;il faut savoir</title>
+    <link>https://www.prestashop.com/fr/blog/comparer-prestashop-magento</link>
+    <description>Présentation de Magento
+En 2008 Varien crée Magento est un CMS Open source e-commerce. Le projet est créé sur la base du framework Zend. </description>
+     <pubDate>Thu, 18 Aug 2022 14:44:03 +0200</pubDate>
+ <dc:creator>Sébastien Godard</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/comparer-prestashop-magento</guid>
+  </item>
+  <item>
+    <title>Les couleurs en marketing : comment bien les utiliser pour mieux vendre ?</title>
+    <link>https://www.prestashop.com/fr/blog/couleurs-marketing-ecommerce</link>
+    <description>En matière de marketing, rien ne doit être laissé au hasard. Le moindre détail compte, y compris les couleurs.</description>
+     <pubDate>Fri, 12 Aug 2022 17:40:11 +0200</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/couleurs-marketing-ecommerce</guid>
+  </item>
+  <item>
+    <title>Mailing list : 14 méthodes pour allonger votre liste de diffusion</title>
+    <link>https://www.prestashop.com/fr/blog/mailing-list-ecommerce</link>
+    <description>Pour développer votre activité de commerce en ligne, une solide stratégie de communication s’appuie nécessairement sur la diffusion d’emails marketing.</description>
+     <pubDate>Fri, 12 Aug 2022 17:36:10 +0200</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/mailing-list-ecommerce</guid>
+  </item>
+  <item>
+    <title>Migrer de Shopify à PrestaShop : le guide pour réussir</title>
+    <link>https://www.prestashop.com/fr/blog/migrer-shopify-prestashop</link>
+    <description>Afin de vous aider dans votre projet de migration de Shopify vers PrestaShop, qui peut être une opération très délicate, nous </description>
+     <pubDate>Thu, 11 Aug 2022 10:13:42 +0200</pubDate>
+ <dc:creator>Sébastien Godard</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/migrer-shopify-prestashop</guid>
+  </item>
+  <item>
+    <title>Vendre grâce aux articles de blog : comment vous y prendre ?</title>
+    <link>https://www.prestashop.com/fr/blog/blog-ecommerce-vendre</link>
+    <description>Vous avez une boutique en ligne et voyez que de plus en plus de concurrents associent un blog à leur activité e-commerce.</description>
+     <pubDate>Wed, 03 Aug 2022 16:54:48 +0200</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/blog-ecommerce-vendre</guid>
+  </item>
+  <item>
+    <title>Témoignages clients : comment les intégrer efficacement à votre stratégie marketing</title>
+    <link>https://www.prestashop.com/fr/blog/temoignages-clients-marketing</link>
+    <description>Vous aimez savoir si vos clients aiment vos produits ? Les internautes aussi !</description>
+     <pubDate>Tue, 02 Aug 2022 18:03:17 +0200</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/temoignages-clients-marketing</guid>
+  </item>
+  <item>
+    <title>Le Green, c’est aussi une économie</title>
+    <link>https://www.prestashop.com/fr/blog/green-economie</link>
+    <description>Vous connaissez votre catalogue, mais connaissez-vous vos clients ? </description>
+     <pubDate>Fri, 29 Jul 2022 16:14:26 +0200</pubDate>
+ <dc:creator>Impact by PayGreen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/green-economie</guid>
+  </item>
+  <item>
+    <title>Plan marketing complet : le guide pour le créer</title>
+    <link>https://www.prestashop.com/fr/blog/plan-marketing-guide</link>
+    <description>Lorsque l’on s’engage dans la création d’une boutique en ligne, il est essentiel de posséder un plan d’action. Développer une activité e-commerce ne s’improvise pa</description>
+     <pubDate>Tue, 26 Jul 2022 12:17:57 +0200</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/plan-marketing-guide</guid>
+  </item>
+  </channel>
+</rss>
