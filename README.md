@@ -74,14 +74,6 @@ GABSVNshop est une boutique prête à la production. Ce qui signifie que vous po
 
 Les moyens d'installation ou d'utilisation, ne sont pas officiellement pris en charge et se font à vos risques et périls.
 
-## DECOMPRESSER LE FICHIER ##
-
-N'oubliez pas de décompresser le fichier GABSVNshop. Voous pourez utiliser la commande suivante:
-
-```php
-unzip NomDuFichier.zip
-```
-
 ## DOCUMENTATION ##
 
 La <a href="https://devdocs.prestashop.com" target="_blank">documentation officielle de PrestaShop</a> est disponible en ligne sur son propre site .
