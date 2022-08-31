@@ -81,7 +81,7 @@ La <a href="https://devdocs.prestashop.com" target="_blank">documentation offici
 Besoin d'une boutique polyvalente et prête à la production? Ne cherchez plus, enregistrez et installez GABSVNshop chez vous sans plus attendre:
 
 ```php
-https://github.com/GABSVN/GABSVNshop
+	https://github.com/GABSVN/GABSVNshop
 ```
 
 
